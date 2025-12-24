@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pykitchensink"
+version = "0.1.0"
+description = "runs every py file in the tree and logs results"
+authors = ["hoefkensj <hoefkens.j@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
